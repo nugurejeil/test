@@ -32,25 +32,26 @@ myName(me);
 ```
 
 
-```css{
+```css
+
     .box{
-  position:relative;
-  width: 300px;
-  height: 70px;
-  background: yellow;
+      position:relative;
+      width: 300px;
+      height: 70px;
+      background: yellow;
 
-}
+    }
 
-.box::after{
-  content:'';
-  position: absolute;
-  top: 90%;
-  right: 100%;
-  bottom: 0;
-  left: 0;
-  background: red;
-  transition: 0.4s;
-}
-  }
+    .box::after{
+      content:'';
+      position: absolute;
+      top: 90%;
+      right: 100%;
+      bottom: 0;
+      left: 0;
+      background: red;
+      transition: 0.4s;
+    }
+  
 
 ```
